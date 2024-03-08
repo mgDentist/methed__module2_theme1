@@ -7,6 +7,7 @@
   const propsItems5 = propsList[3].querySelectorAll('.props__item');
   const propsItems3 = propsList[4].querySelectorAll('.props__item');
   const propsItems6 = propsList[5].querySelectorAll('.props__item');
+  const ads = document.querySelector('.ads');
 
   propsItems4[2].after(propsItems2[3]);
 
@@ -16,4 +17,6 @@
   propsList[3].append(...propsItems3);
 
   item[3].after(item[0]);
+
+  ads.remove();
 }
